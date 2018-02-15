@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-09T15:22:51Z" product-name="old_gold">
+		<header/>
+		<body>
+			<trans-unit id="users.description">
+				<source>users</source>
+			</trans-unit>
+			<trans-unit id="login.description">
+				<source>login</source>
+			</trans-unit>
+			<trans-unit id="categories.description">
+				<source>categories</source>
+			</trans-unit>
+			<trans-unit id="rating.description">
+				<source>rating</source>
+			</trans-unit>
+			<trans-unit id="serviceads.description">
+				<source>serviceads</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

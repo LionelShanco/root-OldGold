@@ -1,0 +1,14 @@
+{
+    "name": "oldgold/oldgold",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "http://new-site.indie.anyhost.it",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^8.7",
+        "typo3/cms-rte-ckeditor": "^8.7",
+        "bk2k/bootstrap-package": "^8.0"
+    }
+}

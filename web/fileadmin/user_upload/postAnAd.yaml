@@ -1,0 +1,86 @@
+
+renderingOptions:
+  submitButtonLabel: Submit
+type: Form
+identifier: postAnAd
+label: 'Post An Ad'
+prototypeName: standard
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: Step
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'Ad Title'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        properties:
+          options:
+            Electronics: Electronics
+            Automobiles: Automobiles
+            Furnitures: Household
+            'Book World': 'Book World'
+            Clothing: Clothing
+          fluidAdditionalAttributes:
+            required: required
+        type: SingleSelect
+        identifier: singleselect-1
+        label: Categories
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        properties:
+          saveToFileMount: '1:/user_upload/'
+          allowedMimeTypes:
+            - image/jpeg
+        type: ImageUpload
+        identifier: imageupload-1
+        label: 'Image upload'
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Name
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-3
+        label: 'Mobile Number'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: Integer
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-4
+        label: City
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

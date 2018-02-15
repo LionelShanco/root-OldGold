@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-09T15:22:51Z" product-name="old_gold">
+		<header/>
+		<body>
+			<trans-unit id="tx_oldgold_domain_model_user">
+				<source>U S E R</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_user.login">
+				<source>Login</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_user.categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_user.rating">
+				<source>Rating</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_user.serviceads">
+				<source>Serviceads</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_login">
+				<source>L O G I N</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_login.user">
+				<source>User</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_categories">
+				<source>C A T E G O R I E S</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin">
+				<source>A D M I N</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.users">
+				<source>Users</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.login">
+				<source>Login</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.rating">
+				<source>Rating</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.serviceads">
+				<source>Serviceads</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_rating">
+				<source>R A T I N G</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_serviceadds">
+				<source>S E R V I C E A D Ds</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

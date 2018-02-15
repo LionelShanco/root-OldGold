@@ -1,0 +1,102 @@
+
+renderingOptions:
+  submitButtonLabel: Submit
+identifier: contactForm
+label: 'Contact Form'
+type: Form
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: SignUp
+      recipientAddress: chethanbs710@gmail.com
+      recipientName: Oldgold
+      senderAddress: '{email}'
+      senderName: '{name}'
+      replyToAddress: '{email}'
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: 'true'
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+  -
+    options:
+      subject: signup
+      recipientAddress: lioneljoseph9@gmail.com
+      recipientName: ''
+      senderAddress: lioneljoseph9@gmail.com
+      senderName: ''
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: 'true'
+    identifier: EmailToSender
+  -
+    options:
+      pageUid: '1'
+      additionalParameters: ''
+    identifier: Redirect
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    identifier: page-1
+    label: ''
+    type: Page
+    renderables:
+      -
+        defaultValue: ''
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Name
+            required: required
+        identifier: name
+        label: 'FIrst Name'
+        type: Text
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: 'Last Name'
+      -
+        defaultValue: abc@company.com
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Email address'
+            required: required
+        identifier: email
+        label: Email
+        type: Text
+        validators:
+          -
+            identifier: NotEmpty
+          -
+            identifier: EmailAddress
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'Contact Number'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        type: Checkbox
+        identifier: checkbox-1
+        label: 'I accept the terms and conditions.'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

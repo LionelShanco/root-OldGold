@@ -1,0 +1,30 @@
+{
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/" },
+		{ "type": "git", "url" :"https://github.com/LionelShanco/sitepackage_oldgold.git"},
+		{ "type": "git", "url" :"https://github.com/LionelShanco/old_gold.git"}
+	],
+	"name": "typo3/cms-base-distribution",
+	"description" : "TYPO3 CMS Base Distribution",
+	"license": "GPL-2.0+",
+	"require": {
+		"typo3/cms": "^8.7",
+		"helhum/typo3-console": "^4.4",
+		"oldgold/oldgold": "dev-master",
+		"typo3/cms-felogin": "^8.7",
+		"in2code/femanager": "^4.0",
+		"friendsoftypo3/extension-builder":"8.7.0",
+		"oldgold/old-gold": "dev-master",
+		"typo3/cms-core": "^8.7"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": "web"
+		}
+	},
+	"require-dev": {
+		"typo3/cms-tstemplate": "^8.7",
+		"typo3/cms-t3editor": "^8.7"
+	}
+}

@@ -1,0 +1,28 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:form.validationResults>
+    <f:debug>{validationResults}</f:debug>
+</f:form.validationResults>
+
+<f:form object="{ad}" name="ad" action="new">
+    <label>Title</label>
+    <f:form.textfield property="title" />
+    <br/>
+
+    <label>Category</label>
+    <f:form.textfield property="category" >
+
+    </f:form.textfield>
+
+    <br/>
+    <label>Description</label>
+    <f:form.textfield property="description"/>
+    <br/>
+    <label>Location</label>
+    <f:form.textfield property="location"/><br/>
+    <label>Phone</label>
+    <f:form.textfield property="phone"/><br/>
+    <button>Submit</button>
+</f:form>
+
+</html>

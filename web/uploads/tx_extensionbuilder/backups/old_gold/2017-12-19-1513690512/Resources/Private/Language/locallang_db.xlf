@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-12-19T14:20:30Z" product-name="old_gold">
+		<header/>
+		<body>
+			<trans-unit id="tx_oldgold_domain_model_user">
+				<source>U S E R</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_login">
+				<source>L O G I N</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_categories">
+				<source>C A T E G O R I E S</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

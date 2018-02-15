@@ -1,0 +1,7 @@
+#
+# PageTS for OLDGOLD
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:oldgold/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:oldgold/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:oldgold/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:oldgold/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-12-10T16:47:54Z" product-name="old_gold">
+		<header/>
+		<body>
+			<trans-unit id="tx_oldgold_domain_model_admin">
+				<source>A D M I N</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_oldgold_domain_model_admin.user_name">
+				<source>User Name</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

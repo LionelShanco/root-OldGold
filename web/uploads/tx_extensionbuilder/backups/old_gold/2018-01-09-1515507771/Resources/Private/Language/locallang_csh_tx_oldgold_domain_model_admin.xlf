@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-12-10T16:47:54Z" product-name="old_gold">
+		<header/>
+		<body>
+			<trans-unit id="id.description">
+				<source>id</source>
+			</trans-unit>
+			<trans-unit id="user_name.description">
+				<source>userName</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

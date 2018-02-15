@@ -1,0 +1,44 @@
+#############
+#### RTE ####
+#############
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    text {
+                        preset = oldgold
+                    }
+                    textcolumn {
+                        preset = oldgold
+                    }
+                    texticon {
+                        preset = oldgold
+                    }
+                    textmedia {
+                        preset = oldgold
+                    }
+                    textpic {
+                        preset = oldgold
+                    }
+                    textteaser {
+                        preset = oldgold
+                    }
+                    panel {
+                        preset = oldgold
+                    }
+                }
+            }
+        }
+        tx_bootstrappackage_accordion_item {
+            bodytext {
+                preset = oldgold
+            }
+        }
+        tx_bootstrappackage_tab_item {
+            bodytext {
+                preset = oldgold
+            }
+        }
+    }
+}
